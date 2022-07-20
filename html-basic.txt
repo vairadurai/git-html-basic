@@ -1,0 +1,70 @@
+1) What is html?
+    HTML stands for Hyper Text Markup Language
+    HTML is the standard markup language for creating Web pages
+    HTML describes the structure of a Web page
+    HTML consists of a series of elements
+    HTML elements tell the browser how to display the content
+    HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+2) HTML Elements
+     The HTML element is everything from the start tag to the end tag:
+     <tagname>Content goes here...</tagname>
+
+      Examples:
+      <h1>My First Heading</h1>
+      <p>My first paragraph.</p>
+
+Inline elements:
+    Inline elements display in a line.
+    They do not force the text after them to a new line.
+    An anchor (or link) is an example of an inline element. 
+    You can put several links in a row, and they will display in a line.
+
+    Examples of inline elements:
+      <a>
+      <strong>
+      <em> 
+      <b>
+      <i>
+      <span>
+
+  Block elements
+     Block level elements take up as much space as possible by default. 
+     Each block level element will start a new line on the page, stacking down the page. 
+     In addition to stacking vertically, block level elements will also take up as much horizontal space as possible.
+
+     The p element is an example of a block level element. Each new paragraph tag will appear on its own line vertically. 
+     Paragraphs with longer content will stretch all the way to the edge of the page.
+     Examples of block level elements:
+       <p>
+       <ol>
+       <ul>
+
+5) list out some tags
+
+    <!DOCTYPE> 	Defines the document type
+    <head>	          Contains metadata/information for the document
+    <title>	          Defines a title for the document
+    <body>	          Defines the document's body
+    <h1> to <h6>	Defines HTML headings
+    <ol>	          Defines an ordered list
+    <ul>	          Defines an Unordered list
+    <p>	                    Defines a paragraph
+    <strong>	          Defines important text
+    <style>	          Defines style information for a document
+    <br>	          Defines a single line break
+    <button>	          Defines a clickable button
+
+3) HTML Attributes
+      HTML attributes provide additional information about HTML elements.
+      All HTML elements can have attributes
+      Attributes provide additional information about elements
+      Attributes are always specified in the start tag
+      Attributes usually come in name/value pairs like: name="value"
+
+4)  Basic structure of html file
+        An HTML document is composed of three parts: 
+          a line containing HTML version information, 
+          a declarative header section (delimited by the HEAD element), 
+          a body, which contains the document's actual content.
+
